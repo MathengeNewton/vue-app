@@ -19,7 +19,7 @@ export default {
 }
 button {
   width: 45%;
-  background-color: aquamarine;
+  background-color: rgb(255, 255, 255);
   padding: 15px;
   border-radius: 5px;
   margin: 5%;

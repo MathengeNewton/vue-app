@@ -72,7 +72,8 @@ export default {
   float: left;
 }
 .menus {
-  margin-top: 60%;
+  margin-top: 30%;
   margin-left: 25%;
+  margin-bottom: 430px;
 }
 </style>
