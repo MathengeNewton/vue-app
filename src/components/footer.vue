@@ -22,7 +22,7 @@ export default {
   font-family: cursive;
 }
 .footer {
-  padding: 2%;
+  padding: 3px;
   color: #f9f9f8f8;
   background-color: rgb(22, 34, 43);
   display: inline-flex;

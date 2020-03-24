@@ -1,8 +1,25 @@
 <template>
   <div class="landingpage">
     <!-- <img class="limage" src="../assets/logo.png" /> -->
-    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text.</p>
-    <Button content="submit" />
+    <div class="sec">
+      <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text.</p>
+    </div>
+    <div id="sect" class="sec">
+      <p>
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text.
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+      </p>
+    </div>
+    <div class="sec" id="btn">
+      <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text.</p>
+      <p>{{ message }}</p>
+      <Button content="submit" v-on:click="reverseMessage" />
+    </div>
   </div>
 </template>
 
@@ -17,7 +34,17 @@ export default {
 </script>
 <style>
 .landingpage {
-  height: 100%;
-  width: 100%;
+  display: inline-flex;
+}
+.sec {
+  width: 25%;
+  margin: 2.5%;
+  height: 200px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+#sect {
+  text-overflow: clip;
+  overflow: scroll;
 }
 </style>

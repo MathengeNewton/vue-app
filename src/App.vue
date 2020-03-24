@@ -11,12 +11,13 @@
       <div class="topbar">
         <Topnav schoolname="my school" />
       </div>
-      <div class="homeimage">
+      <div class="mainvue">
+        <Landingpage />
         <Landingpage />
       </div>
-      <div class="footer">
-        <Footer school="my school" />
-      </div>
+    </div>
+    <div class="footer">
+      <Footer school="my school" />
     </div>
   </div>
 </template>
@@ -64,27 +65,25 @@ export default {
   height: 10%;
 }
 .dom {
+  background-image: "./assets/browser.png";
   width: 80%;
   float: right;
+  height: 616px;
   background-color: white;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 .topbar {
-  padding-top: 2%;
-  margin-bottom: 5%;
+  padding-top: 0.5%;
+  margin-bottom: 1%;
 }
-.homeimage {
-  margin-right: 5%;
-  background-color: whitesmoke;
-  padding: 5px;
-  border-radius: 5px;
-  float: right;
-  width: 20%;
-  margin-bottom: 5%;
+.mainvue {
+  overflow: scroll;
+  height: 80%;
 }
 .footer {
-  width: 96%;
+  width: 79.55%;
+  float: right;
   border-bottom-right-radius: 5px;
 }
 </style>

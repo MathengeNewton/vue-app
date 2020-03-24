@@ -1,25 +1,22 @@
 <template>
   <div class="topnav">
     <div class="schooldets">
-      <div>
-        <img class="avatar" src="../assets/logo.png" />
-      </div>
       <h3>{{ schoolname }}</h3>
     </div>
-    <div class="logout">
-      <Button content="logout" />
+    <div class="myavatar">
+      <img class="avatar" src="../assets/556211_1.jpg" />
     </div>
+    <!-- <div class="logout">
+      <Button content="logout" />
+    </div>-->
   </div>
 </template>
 <script>
-import Button from "./button.vue";
+// import Button from "./button.vue";
 export default {
   name: "Topnav",
   props: {
     schoolname: String
-  },
-  components: {
-    Button
   }
 };
 </script>
@@ -32,18 +29,19 @@ export default {
   width: 100%;
 }
 .schooldets {
+  margin-left: 5%;
   width: 40%;
   float: left;
   display: inline-flex;
 }
-.schooldets .avatar {
+.avatar {
   margin-top: 7px;
   width: 30%;
   background-color: white;
   border: 2px solid black;
   border-radius: 50%;
 }
-.logout {
+.myavatar {
   width: 30%;
   float: right;
   margin-left: 30%;

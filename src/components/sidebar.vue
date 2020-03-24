@@ -2,7 +2,7 @@
   <div class="mainpage">
     <div class="sidebar">
       <div class="profile">
-        <img class="avatar" src="../assets/logo.png" />
+        <img class="avatar" src="../assets/avatar.jpg" />
         <div class="name">
           <p>
             <strong>Mr./Mrs</strong>
